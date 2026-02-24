@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arul Selvan K M | Portfolio</title>
+    <meta name="description"
+        content="Arul Selvan K M - Full Stack Developer & AI Enthusiast Portfolio. Building Intelligent Systems that Solve Real-World Problems.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Page Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+        </div>
+    </div>
+
+    <!-- Background Animation Blobs -->
+    <div class="bg-animation">
+        <div class="bg-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">PORTFOLIO</a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container">
+            <div class="hero-text">
+                <h2>HELLO, I'M</h2>
+                <h1>Arul Selvan K M</h1>
+                <div class="typing-text" id="typing-text"></div>
+                <p style="margin-bottom: 30px; font-size: 1.2rem; color: var(--text-secondary);">CGPA: 8.0</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                </div>
+                <div class="floating-icons">
+                    <i class="fab fa-java floating-icon"></i>
+                    <i class="fab fa-python floating-icon"></i>
+                    <i class="fab fa-js floating-icon"></i>
+                    <i class="fab fa-react floating-icon"></i>
+                    <i class="fab fa-aws floating-icon"></i>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="profile-img-wrapper">
+                    <img src="images/arul_profile.png" alt="Arul Selvan K M" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card">
+                <p style="font-size: 1.1rem; text-align: center;">
+                    Motivated Computer Science Engineering student with strong foundation in programming, full stack
+                    development and AI-based systems. Passionate about solving real-world problems using scalable and
+                    intelligent solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-container">
+                <!-- Languages -->
+                <div class="skill-category glass-card">
+                    <h3>Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Java</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>C</span><span>75%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Frontend -->
+                <div class="skill-category glass-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML/CSS</span><span>95%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend & DB -->
+                <div class="skill-category glass-card">
+                    <h3>Backend & Data</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Spring Boot</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Node.js</span><span>70%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>MySQL</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card" style="margin-top: 30px; text-align: center;">
+                <p><strong>Tools:</strong> Git, GitHub, IntelliJ, Maven, Postman, AWS</p>
+                <p><strong>Domains:</strong> Java Full Stack, Machine Learning, Data Analytics</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Internship Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item left glass-card">
+                    <div class="timeline-dot"></div>
+                    <h3>Yaazh Tech Pvt Ltd</h3>
+                    <p style="color: var(--accent-blue);">Frontend Developer Intern (Java Full Stack)</p>
+                    <p>Worked on a robust <strong>Bank Management System</strong>.</p>
+                    <div class="project-tech">
+                        <span class="badge">Java</span>
+                        <span class="badge">Spring Boot</span>
+                        <span class="badge">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Latest Works</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Freelancing Platform</h3>
+                        <p>A comprehensive marketplace connecting freelancers and clients with seamless bidding and
+                            project management.</p>
+                        <div class="project-tech">
+                            <span class="badge">Node.js</span>
+                            <span class="badge">Express</span>
+                            <span class="badge">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Bank Account Management System</h3>
+                        <p>Secure banking application handling transactions, account creation, and statement generation.
+                        </p>
+                        <div class="project-tech">
+                            <span class="badge">Java</span>
+                            <span class="badge">Spring Boot</span>
+                            <span class="badge">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Wart Prediction System</h3>
+                        <p>A machine learning-based diagnostic tool to predict planter wart treatment outcomes.</p>
+                        <div class="project-tech">
+                            <span class="badge">Python</span>
+                            <span class="badge">Scikit-learn</span>
+                            <span class="badge">Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Medication Reminder System</h3>
+                        <p>Healthcare solution to help patients track medications and receive timely alerts.</p>
+                        <div class="project-tech">
+                            <span class="badge">Android</span>
+                            <span class="badge">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Pet Care Management</h3>
+                        <p>Platform for pet owners to manage appointments, vaccinations, and pet health records.</p>
+                        <div class="project-tech">
+                            <span class="badge">React Native</span>
+                            <span class="badge">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>Visitor Management System</h3>
+                        <p>Automated system for logging and tracking visitors in corporate environments.</p>
+                        <div class="project-tech">
+                            <span class="badge">Python</span>
+                            <span class="badge">Django</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-inner">
+                        <h3>2048 Game</h3>
+                        <p>A logic-driven puzzle game built with optimized movement algorithms.</p>
+                        <div class="project-tech">
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">HTML5 Canvas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funded Project Highlight -->
+    <section id="funded">
+        <div class="container">
+            <div class="glass-card funded-card">
+                <h2 class="section-title" style="margin-bottom: 20px;">Funded Project</h2>
+                <h3>IoT Based Warehouse Security System</h3>
+                <p>Grant awarded by MSME 4.0</p>
+                <div class="counter" id="funding-counter" data-target="1250000">₹0</div>
+                <p>Funding Received: ₹12.5 Lakhs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="projects-grid">
+                <div class="glass-card">
+                    <h3>NPTEL</h3>
+                    <p>Computer Interface</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Coursera</h3>
+                    <p>Cybersecurity Essentials</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Google</h3>
+                    <p>AI Essentials</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github">
+        <div class="container">
+            <h2 class="section-title">GitHub activity</h2>
+            <div class="glass-card" style="text-align: center;">
+                <i class="fab fa-github" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                <p>Check out my latest code repositories and contributions.</p>
+                <a href="https://github.com/ARULSELVANMAHALINGAM" target="_blank" class="btn btn-secondary"
+                    style="margin-top: 20px; display: inline-block;">Visit Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="glass-card">
+                    <h3>Contact Information</h3>
+                    <p style="margin: 20px 0;"><i class="fas fa-phone"></i> +91 9655576962</p>
+                    <p style="margin: 20px 0;"><i class="fas fa-envelope"></i> arulselvanmahalingam@gmail.com</p>
+                    <div class="floating-icons" style="justify-content: flex-start;">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ARULSELVANMAHALINGAM" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="glass-card">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea id="message" rows="5" required placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"
+                        style="width: 100%; border: none; cursor: pointer;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chatbot -->
+    <div id="chatbot">
+        <button id="chatbot-toggle"><i class="fas fa-comment-dots"></i></button>
+        <div id="chatbot-container">
+            <div class="chat-header">AI Assistant</div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-msg">Hi! I'm Arul's AI assistant. Ask me anything about his skills, projects, or
+                    internship!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="chat-send" class="btn btn-primary" style="padding: 10px 15px; border-radius: 10px;"><i
+                        class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="padding: 50px 0; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div class="container">
+            <p style="color: var(--text-secondary);">&copy; 2026 Arul Selvan K M. All Rights Reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.8rem; color: var(--text-secondary);">Built with <i
+                    class="fas fa-heart" style="color: var(--accent-purple);"></i> and Vanilla JS</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
